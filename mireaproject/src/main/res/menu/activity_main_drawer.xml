@@ -26,5 +26,10 @@
             android:id="@+id/nav_webViewFragment"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Browser" />
+
+        <item
+            android:id="@+id/nav_downloadFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Download" />
     </group>
 </menu>
