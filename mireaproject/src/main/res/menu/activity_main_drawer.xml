@@ -31,5 +31,10 @@
             android:id="@+id/nav_downloadFragment"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Download" />
+
+        <item
+            android:id="@+id/nav_testSensorFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="TestSensor" />
     </group>
 </menu>
