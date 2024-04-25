@@ -36,5 +36,11 @@
             android:id="@+id/nav_testSensorFragment"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="TestSensor" />
+
+        <item
+            android:id="@+id/nav_cameraFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Camera" />
+
     </group>
 </menu>

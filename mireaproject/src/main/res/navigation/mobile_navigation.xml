@@ -44,5 +44,10 @@
         android:name="com.mirea.lutchenkoam.mireaproject.TestSensorFragment"
         android:label="fragment_test_sensor"
         tools:layout="@layout/fragment_test_sensor" />
+    <fragment
+        android:id="@+id/nav_cameraFragment"
+        android:name="com.mirea.lutchenkoam.mireaproject.CameraFragment"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
 
 </navigation>
