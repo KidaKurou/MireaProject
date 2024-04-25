@@ -42,5 +42,10 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Camera" />
 
+        <item
+            android:id="@+id/nav_microphoneFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Microphone" />
+
     </group>
 </menu>
