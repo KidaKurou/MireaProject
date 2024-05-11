@@ -52,5 +52,10 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Profile" />
 
+        <item
+            android:id="@+id/nav_fileEncryptionFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="File Encryption" />
+
     </group>
 </menu>
