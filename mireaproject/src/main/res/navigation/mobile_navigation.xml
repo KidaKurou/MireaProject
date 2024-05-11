@@ -54,5 +54,10 @@
         android:name="com.mirea.lutchenkoam.mireaproject.MicrophoneFragment"
         android:label="fragment_microphone"
         tools:layout="@layout/fragment_microphone" />
+    <fragment
+        android:id="@+id/nav_profileFragment"
+        android:name="com.mirea.lutchenkoam.mireaproject.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
 
 </navigation>

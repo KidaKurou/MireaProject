@@ -47,5 +47,10 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Microphone" />
 
+        <item
+            android:id="@+id/nav_profileFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Profile" />
+
     </group>
 </menu>
