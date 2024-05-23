@@ -64,5 +64,15 @@
         android:name="com.mirea.lutchenkoam.mireaproject.FileEncryptionFragment"
         android:label="fragment_file_encryption"
         tools:layout="@layout/fragment_file_encryption" />
+    <fragment
+        android:id="@+id/nav_networkFragment"
+        android:name="com.mirea.lutchenkoam.mireaproject.NetworkFragment"
+        android:label="fragment_network"
+        tools:layout="@layout/fragment_network" />
+    <fragment
+        android:id="@+id/nav_establishmentsFragment"
+        android:name="com.mirea.lutchenkoam.mireaproject.EstablishmentsFragment"
+        android:label="fragment_establishments"
+        tools:layout="@layout/fragment_establishments" />
 
 </navigation>

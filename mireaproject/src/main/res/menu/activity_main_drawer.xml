@@ -57,5 +57,15 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="File Encryption" />
 
+        <item
+            android:id="@+id/nav_networkFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="NetworkService" />
+
+        <item
+            android:id="@+id/nav_establishmentsFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Establishments" />
+
     </group>
 </menu>

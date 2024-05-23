@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.androidApplication)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -26,12 +27,15 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
-    buildFeatures {
+    buildFeatures{
         viewBinding = true
+        dataBinding = true
     }
 }
 
 dependencies {
+    implementation("org.osmdroid:osmdroid-android:6.1.16")
+    implementation("androidx.preference:preference:1.2.0")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.constraintlayout)
@@ -41,6 +45,8 @@ dependencies {
     implementation(libs.navigation.ui)
     implementation("androidx.work:work-runtime:2.8.1")
     implementation("com.github.bumptech.glide:glide:4.10.0")
+    implementation(libs.firebase.auth)
+    implementation(libs.activity)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
